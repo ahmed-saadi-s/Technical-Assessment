@@ -26,7 +26,7 @@ class BookingOverview extends StatsOverviewWidget
             Stat::make('Confirmed Bookings', 
                 Booking::where('status', BookingStatus::CONFIRMED)->count()
             )
-            ->description('Completed successfully')
+            ->description('Confirmed bookings')
             ->color('success'),
 
             Stat::make('Cancelled Bookings', 

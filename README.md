@@ -4,7 +4,7 @@ This project, **Technical-Assessment**, contains a mini booking management syste
 It includes:
 
 * **Filament Dashboard** for admin management.
-* **Booking API** for creating and managing bookings.
+* **Booking API** for creating bookings.
 
 ## How to Run the Project
 
